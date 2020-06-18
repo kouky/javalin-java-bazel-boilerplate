@@ -15,3 +15,6 @@ Build and run the web server as a self-contained deployable binary
     make deploy
 
 Can be used with IntelliJ by installing the [Bazel plugin](https://ij.bazel.build/docs/bazel-plugin.html) and importing with the provided `.bazelproject` project view file.
+
+For a Kotlin variant see [javalin-kotlin-bazel-boilerplate](https://github.com/kouky/javalin-kotlin-bazel-boilerplate).
+

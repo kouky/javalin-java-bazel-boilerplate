@@ -1,0 +1,21 @@
+options:
+  languages: [ "java" ]
+  resolverType: "coursier"
+  resolvers:
+    - id: "mavencentral"
+      type: "default"
+      url: https://repo.maven.apache.org/maven2/
+  strictVisibility: true
+  transitivity: exports
+  versionConflictPolicy: highest
+
+dependencies:
+  io.javalin:
+    javalin:
+      lang: java
+      version: "3.9.0"
+
+  org.slf4j:
+    slf4j-simple:
+      lang: java
+      version: "1.7.30"

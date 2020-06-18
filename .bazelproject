@@ -1,0 +1,24 @@
+# https://ij.bazel.build/docs/bazel-plugin.html
+
+directories:
+  # Add the directories you want added as source here
+  src/main/java/org/kouky/server
+
+# Automatically includes all relevant targets under the 'directories' above
+derive_targets_from_directories: false
+
+targets:
+  //src/main/java/org/kouky/server:hello_world_server
+  //src/main/java/org/kouky/server:hello_world_server_deploy.jar
+
+additional_languages:
+  # Uncomment any additional languages you want supported
+  # android
+  # dart
+  # go
+  # javascript
+  # kotlin
+  # python
+  # scala
+  # typescript
+
